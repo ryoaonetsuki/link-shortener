@@ -1,11 +1,46 @@
 # URL Shortener
 
-A lightweight service for generating shortened URLs.
+A lightweight web service for creating shortened URLs.
 
-## Overview
+## Requirements
 
-This repository contains the source code and project files for the project.
+- Node.js
+- npm
 
-## Setup
+## Installation
 
-Use the included project configuration and dependency files to install and run it locally.
+```bash
+git clone https://github.com/ryoaonetsuki/link-shortener.git
+cd link-shortener
+npm install
+```
+
+## Development
+
+```bash
+npm run dev
+```
+
+Build:
+
+```bash
+npm run build
+```
+
+Start:
+
+```bash
+npm start
+```
+
+## Usage
+
+Run the service locally and use its web interface to submit a destination URL. The application returns a shortened URL that redirects to the destination.
+
+## Configuration
+
+Review the project configuration for storage, domain, and environment settings before production deployment.
+
+## Security
+
+Validate destination URLs and protect administrative or storage endpoints before exposing the service publicly.
